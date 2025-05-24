@@ -13,10 +13,11 @@ MLJobPostingUS/
 ├── main.py                 # Analysis and modeling script
 ├── requirements.txt        # Python dependencies
 └── README.md               # Project documentation
+```
 
 ---
+## 🎯 Objectives
 
-🎯 Objectives
 Analyze trends in ML job postings (e.g., locations, titles, remote jobs)
 
 Identify most in-demand skills and tools (via text mining)
@@ -27,7 +28,7 @@ Build basic classification models for remote status and job category
 
 ---
 
-🛠️ Tools & Skills Used
+## 🛠️ Tools & Skills Used
 Python: pandas, matplotlib, seaborn, scikit-learn, xgboost
 
 EDA: data cleaning, visualization, correlation analysis
@@ -42,7 +43,7 @@ Certificate Alignment: Google Advanced Data Analytics Certificate
 
 ---
 
-📊 Sample Insights
+## 📊 Sample Insights
 📍 Top locations: California, New York, Texas
 
 💼 Top roles: Data Scientist, ML Engineer, AI Specialist
@@ -53,26 +54,26 @@ Certificate Alignment: Google Advanced Data Analytics Certificate
 
 ---
 
-🚀 How to Run the Project
+## 🚀 How to Run the Project
 
 1.Clone the repo:
-
+```bash
 git clone https://github.com/ccmens/MLJobPostingUS.git
 cd MLJobPostingUS
-
+```
 2.Create a virtual environment and install dependencies:
-
+```bash
 python -m venv venv
 source venv/bin/activate  # or venv\Scripts\activate on Windows
 pip install -r requirements.txt
-
+```
 3.Run the script:
-
+```bash
 python main.py
-
+```
 ---
 
-📌 Next Steps
+## 📌 Next Steps
 Add interactive visualizations using Tableau or Streamlit
 
 Enhance NLP pipeline with named entity recognition
@@ -89,3 +90,4 @@ To run the analysis from command line:
 ```bash
 cd scripts
 python main.py
+```

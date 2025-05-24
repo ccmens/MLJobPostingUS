@@ -1,6 +1,6 @@
 # 📌 Machine Learning Job Postings Analysis (US)
 
-This project analyzes machine learning-related job postings in the United States, uncovering hiring trends, required skills, and salary insights using Python and tools learned from the **Google Advanced Data Analytics Certificate**.
+This project analyzes machine learning-related job postings in the United States to uncover hiring trends, skill requirements, and salary patterns using tools from the **Google Advanced Data Analytics Certificate**.
 
 ---
 
@@ -9,54 +9,78 @@ This project analyzes machine learning-related job postings in the United States
 ```bash
 MLJobPostingUS/
 │
-├── data/                # Raw and cleaned data
-├── notebooks/           # Jupyter notebooks for EDA, NLP, modeling
-├── scripts/             # Python scripts for reusable functions
-├── outputs/             # Final plots, reports, and model outputs
-├── README.md            # Project documentation
-└── requirements.txt     # Project dependencies
----
-
-## 🎯 Objectives
-
-- Analyze trends in ML job postings (e.g., locations, titles, remote jobs)
-- Identify most in-demand skills and tools (via text mining)
-- Explore salary distribution and key predictors
-- Build a basic model to predict job category or remote status
+├── 1000_ml_jobs_us.csv     # Original dataset
+├── main.py                 # Analysis and modeling script
+├── requirements.txt        # Python dependencies
+└── README.md               # Project documentation
 
 ---
 
-## 🛠️ Tools & Skills Used
+🎯 Objectives
+Analyze trends in ML job postings (e.g., locations, titles, remote jobs)
 
-- **Python**: pandas, matplotlib, seaborn, scikit-learn
-- **EDA**: data cleaning, visualization, correlation analysis
-- **Text Analysis**: NLP for extracting skills from job descriptions
-- **Modeling**: Logistic regression, decision tree
-- **Project Management**: Git, GitHub
-- **Certification**: Google Advanced Data Analytics Certificate
+Identify most in-demand skills and tools (via text mining)
 
----
+Explore salary distributions and key predictors
 
-## 📊 Sample Insights
-
-- 📍 Most jobs are in California, New York, and Texas  
-- 💼 "Data Scientist" and "ML Engineer" are top titles  
-- 🧠 Top skills: Python, SQL, TensorFlow, cloud platforms  
-- 💰 Salaries vary significantly with location and job level  
+Build basic classification models for remote status and job category
 
 ---
 
-## 📌 Next Steps
+🛠️ Tools & Skills Used
+Python: pandas, matplotlib, seaborn, scikit-learn, xgboost
 
-- Add interactive dashboard (Tableau or Streamlit)
-- Improve NLP pipeline (e.g., named entity recognition)
-- Publish on portfolio or GitHub Pages
+EDA: data cleaning, visualization, correlation analysis
+
+Modeling: logistic regression, decision trees, SVM, XGBoost
+
+NLP: basic keyword extraction (optional)
+
+Version Control: Git & GitHub
+
+Certificate Alignment: Google Advanced Data Analytics Certificate
 
 ---
 
-## 👩‍💻 Author
+📊 Sample Insights
+📍 Top locations: California, New York, Texas
 
-**Carmen** | [GitHub](https://github.com/ccmens) | LinkedIn(https://www.linkedin.com/in/jiawen-shen-9b7283221/)
+💼 Top roles: Data Scientist, ML Engineer, AI Specialist
+
+🧠 In-demand skills: Python, SQL, TensorFlow, AWS
+
+💰 Salary patterns vary by location, company, and remote flexibility
+
+---
+
+🚀 How to Run the Project
+
+1.Clone the repo:
+
+git clone https://github.com/ccmens/MLJobPostingUS.git
+cd MLJobPostingUS
+
+2.Create a virtual environment and install dependencies:
+
+python -m venv venv
+source venv/bin/activate  # or venv\Scripts\activate on Windows
+pip install -r requirements.txt
+
+3.Run the script:
+
+python main.py
+
+---
+
+📌 Next Steps
+Add interactive visualizations using Tableau or Streamlit
+
+Enhance NLP pipeline with named entity recognition
+
+Refactor functions into modular scripts
+
+Publish results on GitHub Pages or personal portfolio
+
 
 ---
 
@@ -72,3 +96,11 @@ git add README.md
 git commit -m "Add complete project README"
 git push
 
+---
+
+### ▶️ How to Run
+To run the analysis from command line:
+
+```bash
+cd scripts
+python main.py

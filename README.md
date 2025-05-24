@@ -81,21 +81,6 @@ Refactor functions into modular scripts
 
 Publish results on GitHub Pages or personal portfolio
 
-
----
-
-### How to Use
-
-1. Open your project in VS Code.
-2. Create or replace the `README.md` file in the root of the project.
-3. Paste the content above and save the file.
-4. Commit and push it to GitHub:
-
-```bash
-git add README.md
-git commit -m "Add complete project README"
-git push
-
 ---
 
 ### ▶️ How to Run
